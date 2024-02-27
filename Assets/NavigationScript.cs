@@ -40,17 +40,24 @@ public class NavigationScript : MonoBehaviour
         }
     }
 
-    void ManualMove()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+void ManualMove()
+{
+    float horizontal = Input.GetAxis("Horizontal");
+    float vertical = Input.GetAxis("Vertical");
 
-        Vector3 moveDirection = new Vector3(horizontal, 0, vertical);
-        if (moveDirection != Vector3.zero)
-        {
-            // Move the agent manually
-            agent.nextPosition = transform.position + moveDirection * agent.speed * Time.deltaTime;
-            transform.position = agent.nextPosition;
-        }
+    // Rotate the agent based on horizontal input
+    if (horizontal != 0)
+    {
+        transform.Rotate(0, horizontal * agent.angularSpeed * Time.deltaTime, 0);
     }
+
+    // Move the agent forward or backward based on vertical input
+    if (vertical != 0)
+    {
+        Vector3 moveDirection = transform.forward * vertical;
+        agent.nextPosition = transform.position + moveDirection * agent.speed * Time.deltaTime;
+        transform.position = agent.nextPosition;
+    }
+}
+
 }
