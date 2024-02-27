@@ -2127,3 +2127,1587 @@ Received Import Request.
 Start importing Assets/Textures/Startpunkt.png using Guid(952d5c81a530349a98bcd3310343c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1763dbb7994eecda0d4bd3e510d1ea45') in 0.042771 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 181.436733 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900174d2e9ff10fec3e66d349abc6e43') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x290e07000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.317 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1190ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.4 MB). Loaded Objects now: 5072.
+Memory consumption went from 422.9 MB to 421.5 MB.
+Total: 3.129042 ms (FindLiveObjects: 0.142209 ms CreateObjectMapping: 0.076334 ms MarkObjects: 2.416000 ms  DeleteObjects: 0.494250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/IndoorNav.cs: b4788bd8f0057d006965eb11d96366ad -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 23b8ddab33b1e52447e8bf87e15b3073 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.999161 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000850 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058887 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000190 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098500 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104827 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099364 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100714 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100697 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000232 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102447 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000387 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101440 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000325 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097853 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099529 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000235 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102799 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000409 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098749 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000248 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101451 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099293 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000348 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099851 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098838 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000238 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102426 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000397 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099422 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000266 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099678 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000340 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100671 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000276 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101031 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100441 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000348 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099783 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000249 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098451 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000421 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100329 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000365 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099243 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100196 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100472 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000250 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099629 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000394 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100498 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100190 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000352 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099512 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000184 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103934 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096862 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000186 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101778 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098229 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000233 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102581 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100297 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000398 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099151 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000216 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110851 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000297 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092251 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000306 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099715 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100181 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:00Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102674 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000408 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096103 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000364 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099759 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101524 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000521 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101056 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000376 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097951 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000243 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101740 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000305 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100500 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101988 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099682 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000213 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098259 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000395 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101239 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000344 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098386 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101832 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099826 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101451 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000477 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097811 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101443 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000306 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101541 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000193 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100705 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000335 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099341 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100234 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102353 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000274 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098979 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000341 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101325 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000218 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100602 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000272 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100258 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101861 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099048 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000292 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101873 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099490 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099717 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000240 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098800 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000276 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102560 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000447 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099297 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000360 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100405 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000385 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099576 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102433 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000392 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098712 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099883 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098311 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000276 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100669 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000324 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102371 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000309 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101478 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000422 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099233 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100475 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000403 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099435 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000245 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098304 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000306 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100563 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000333 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100264 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000302 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101731 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000418 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101538 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000341 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098905 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102483 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000365 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097436 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000329 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100670 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098900 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000293 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100887 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000500 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100581 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099562 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100435 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000223 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101980 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000283 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097102 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103326 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000245 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.122588 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000323 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074358 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.108047 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101875 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104848 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089691 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000124 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110340 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101434 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103876 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096622 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000383 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098804 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103602 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000350 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098992 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000403 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101878 seconds.
+  path: Assets/Scripts/QRTest.cs
+  artifactKey: Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QRTest.cs using Guid(0e250fe74ce2e41f0b8dc3cbec273df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000235 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+  ERROR: Build asset version error: assets/scripts/qrtest.cs in SourceAssetDB has modification time of '2024-02-27T23:25:55Z' while content on disk has modification time of '2024-02-27T23:26:06Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x290e07000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.262 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1013ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.4 MB). Loaded Objects now: 5076.
+Memory consumption went from 434.0 MB to 432.7 MB.
+Total: 3.068042 ms (FindLiveObjects: 0.132625 ms CreateObjectMapping: 0.075875 ms MarkObjects: 2.444500 ms  DeleteObjects: 0.414750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/IndoorNav.cs: b4788bd8f0057d006965eb11d96366ad -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 23b8ddab33b1e52447e8bf87e15b3073 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x290e07000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.229 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 742ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (514ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.4 MB). Loaded Objects now: 5080.
+Memory consumption went from 445.0 MB to 443.6 MB.
+Total: 3.243709 ms (FindLiveObjects: 0.162167 ms CreateObjectMapping: 0.081958 ms MarkObjects: 2.503208 ms  DeleteObjects: 0.495792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/IndoorNav.cs: b4788bd8f0057d006965eb11d96366ad -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 23b8ddab33b1e52447e8bf87e15b3073 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
