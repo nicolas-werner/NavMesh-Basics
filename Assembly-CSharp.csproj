@@ -64,6 +64,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/QrCodeRecenter.cs" />
     <Compile Include="Assets/NavigationScript.cs" />
     <Compile Include="Assets/Scripts/SetNavigationTarget.cs" />
     <Compile Include="Assets/Scripts/Target.cs" />
