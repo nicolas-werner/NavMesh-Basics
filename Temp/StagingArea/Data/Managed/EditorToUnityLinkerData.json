@@ -176,6 +176,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "NavMeshAgent",
+            "fullManagedTypeName": "UnityEngine.AI.NavMeshAgent",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "NavMeshData",
             "fullManagedTypeName": "UnityEngine.AI.NavMeshData",
             "moduleName": "AI",
